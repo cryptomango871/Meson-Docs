@@ -1,5 +1,13 @@
 # Deploy to Linux
 
+## Step1, Get a server
+
+## Step2, Set up a server.
+
+
+
+## Step3, De
+
 ```text
 ####### Tutorial: How to install and run miner terminal on linux server#######
 Please make sure the port you use is opened on the firewall and sudo permission can be used

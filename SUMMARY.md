@@ -7,17 +7,21 @@
 
 ## Deploy\(Mine\) Meson <a id="deploy-meson"></a>
 
+* [General Instructions](deploy-meson/general-instructions.md)
 * [Google Cloud Platform](deploy-meson/google-cloud-platform.md)
-* [Amazon Web Services](deploy-meson/amazon-web-services.md)
-* [Azure](deploy-meson/azure.md)
 * [Deploy to Linux](deploy-meson/deploy-to-linux.md)
-* [Deploy to Windows](deploy-meson/deploy-to-windows.md)
-* [Deploy to Mac](deploy-meson/deploy-to-mac.md)
 
 ## Use CDN Services of Meson
 
 * [Accelerate Full Website](use-cdn-services-of-meson/accelerate-full-website.md)
 * [Accelerate a Single File](use-cdn-services-of-meson/accelerate-a-single-file.md)
+
+## DOCS TODO <a id="todo"></a>
+
+* [Amazon Web Services\(TODO\)](todo/amazon-web-services.md)
+* [Azure\(TODO\)](todo/azure.md)
+* [Deploy to Windows\(TODO\)](todo/deploy-to-windows.md)
+* [Deploy to Mac\(TODO\)](todo/deploy-to-mac.md)
 
 ---
 
