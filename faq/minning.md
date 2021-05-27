@@ -37,7 +37,7 @@ All the test-network tokens will be mapped to 1% of the mainnet tokens.
 
 ## **Are there any tutorials for the deployment of Meson Network?**
 
-* Google Cloud Platforms\(GCP\)
+* [Google Cloud Platforms\(GCP\)](https://app.gitbook.com/@mesonnetwork/s/meson-network/deploy-meson/google-cloud-platform/) 
 * Amazon Web Services \(AWS\)
 * Microsoft Azure\(Azure\)
 * Vultr
