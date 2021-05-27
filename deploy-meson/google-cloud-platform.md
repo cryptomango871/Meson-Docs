@@ -66,18 +66,26 @@ Follow the steps from “[https://meson.network/terminals](https://meson.network
 
 ```text
 ####### Tutorial: How to install and run miner terminal on linux server#######
+Please make sure the port you use is opened on the firewall and sudo permission can be used
 #Step.1 download the terminal package
-$ sudo apt-get install wget
-$ wget 'https://assets.meson.network:10443/static/terminal/v2.0.2/meson-linux-amd64.tar.gz'
+$ wget 'https://assets.meson.network:10443/static/terminal/v2.5.1/meson-linux-amd64.tar.gz'
 #Step.2 unzip the package
 $ tar -zxf meson-linux-amd64.tar.gz
-#Step.3 run the app
-$ cd ./meson-linux-amd64 && ./meson
+#Step.3 install the app as service
+$ cd ./meson-linux-amd64
+$ sudo ./meson service-install
 #Step.4 input your token, port and space provide
+#Step.5 start the app
+$ sudo ./meson service-start
+#Step.6 wait about 1 minutes and check status
+$ sudo ./meson service-status
 after 2-3 minutes you will have a new terminal record
-#Step.5 check your earnings
+#Step.7 check your earnings
+### Other commands ###
+"sudo ./meson service-stop" to stop app
+"sudo ./meson service-remove" to remove app
 
-( this is current instruction for a Linux 64 bit server [04/20/2021] )
+( this is current instruction for a Linux 64 bit server [05/27/2021] )
 ```
 
 And you could see your servers working ON as Meson Note on the same page.
