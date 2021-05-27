@@ -23,5 +23,5 @@ for example, [https://docs.meson.network/deploy-meson/google-cloud-platform](htt
 
 {% embed url="https://coldcdn.com/api/cdn/wr1cs5/video/3MinutesToMineMeson.mp4" %}
 
-\(above is the instructions for an old version\)
+\(Above is the instructions for an old version. also, here is the [Youtube link](https://www.youtube.com/watch?v=jHrVCpuREqk)\)
 
