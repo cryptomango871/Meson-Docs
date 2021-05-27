@@ -1,5 +1,5 @@
 ---
-description: Use Google Cloud Platform to Mine Meson
+description: Use GCP to Mine Meson
 ---
 
 # Google Cloud Platform
