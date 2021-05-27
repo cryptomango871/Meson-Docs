@@ -2,7 +2,7 @@
 
 ## Step1, Get a server
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 You could easily find the tutorials to apply for a trial server.
 

@@ -29,7 +29,7 @@ In addition, standing and stable servers will have a higher **CreditScore**.
 Also, there will be some reward adjustments for servers in different regions.  
 
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 ## **What is the difference in the current testing period?**
 
@@ -44,7 +44,7 @@ All the test-network tokens will be mapped to 1% of the mainnet tokens.
 * Digital Ocean
 * ……
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image.png)
 
   
 

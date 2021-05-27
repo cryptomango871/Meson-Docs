@@ -18,5 +18,5 @@ Please check [here](https://medium.com/meson-network/meson-token-metrics-economi
 * Partners: 6,000,000 Meson \(6%\)
 * Test-Net Mapping: 1,000,000 Meson \(1%\)
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
