@@ -11,7 +11,7 @@ Open this link [https://meson.network/binddomain](https://meson.network/binddoma
 * Type the path of the website you want to accelerate.
 * Change the original path into the new one.
 
-Here is the example that we use Meson to accelerate IPFS.IO
+Here is the example that we use Meson to accelerate [IPFS.IO](https://ipfs.io/)
 
 {% embed url="https://coldcdn.com/api/cdn/wr1cs5/video/AcceleratedByUsingMesonNetwork.mp4" caption="" %}
 
