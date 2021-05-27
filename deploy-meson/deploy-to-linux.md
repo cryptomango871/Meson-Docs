@@ -68,5 +68,19 @@ After 2-3 minutes, you will have a new terminal record at [https://meson.network
 
 ## Common Attentions
 
+### 1, How to **Change the Port**?
+
+Please modify **config.txt at** the folder of Meson.
+
+### 2, How to **Change the Space**?
+
+Please modify **config.txt at** the folder of Meson.
+
+### 3, Be sure to **Set up a Public IP**
+
+It is important especially when it is your own personal computer to run Meson.
+
+
+
 
 
