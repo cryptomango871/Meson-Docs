@@ -1,34 +1,35 @@
 # Deploy to Linux
 
-## Step1, Get a server
+## Having reached this part, we assume that you already have a server with 40+GB space and an opened port.
 
-## Step2, Set up a server.
-
-
-
-## Step3, De
+Code reference: [https://meson.network/terminals](https://meson.network/terminals)
 
 ```text
-####### Tutorial: How to install and run miner terminal on linux server#######
-Please make sure the port you use is opened on the firewall and sudo permission can be used
 #Step.1 download the terminal package
 $ wget 'https://assets.meson.network:10443/static/terminal/v2.5.1/meson-linux-amd64.tar.gz'
+
 #Step.2 unzip the package
 $ tar -zxf meson-linux-amd64.tar.gz
+
 #Step.3 install the app as service
 $ cd ./meson-linux-amd64
 $ sudo ./meson service-install
+
 #Step.4 input your token, port and space provide
+
 #Step.5 start the app
 $ sudo ./meson service-start
+
 #Step.6 wait about 1 minutes and check status
 $ sudo ./meson service-status
 after 2-3 minutes you will have a new terminal record
+
 #Step.7 check your earnings
+
+
 ### Other commands ###
 "sudo ./meson service-stop" to stop app
 "sudo ./meson service-remove" to remove app
-Please check https://docs.meson.network for more tutorials
 ```
 
 
@@ -39,7 +40,7 @@ Please check https://docs.meson.network for more tutorials
 
 
 
-reference code: [https://meson.network/terminals](https://meson.network/terminals)
+
 
 
 

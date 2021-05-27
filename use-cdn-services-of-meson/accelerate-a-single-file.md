@@ -4,7 +4,7 @@ description: How to publish and accelerate a single file?
 
 # Accelerate a Single File
 
-Open this website [https://meson.network/filemanager](https://meson.network/filemanager) first.
+Open this link [https://meson.network/filemanager](https://meson.network/filemanager) first.
 
 
 
