@@ -10,6 +10,7 @@
 * [General Instructions](deploy-meson/general-instructions.md)
 * [Google Cloud Platform](deploy-meson/google-cloud-platform.md)
 * [Deploy to Linux](deploy-meson/deploy-to-linux.md)
+* [Deploy to Windows\(TODO\)](deploy-meson/deploy-to-windows.md)
 
 ## Use CDN Services of Meson
 
@@ -20,7 +21,6 @@
 
 * [Amazon Web Services\(TODO\)](todo/amazon-web-services.md)
 * [Azure\(TODO\)](todo/azure.md)
-* [Deploy to Windows\(TODO\)](todo/deploy-to-windows.md)
 * [Deploy to Mac\(TODO\)](todo/deploy-to-mac.md)
 
 ---

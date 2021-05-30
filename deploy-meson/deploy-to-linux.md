@@ -10,7 +10,7 @@
 $ wget 'https://assets.meson.network:10443/static/terminal/v2.5.1/meson-linux-amd64.tar.gz'
 ```
 
-If you get notifications like "-bash: wget: command not found" telling that you can't use this command, please install wget by using "**sudo apt-get install wget**" first.
+> If you get notifications like "-bash: wget: command not found" telling that you can't use this command, please install wget by using "**sudo apt-get install wget**" first.
 
 ### Command 2, Unzip this package
 
@@ -63,6 +63,7 @@ After 2-3 minutes, you will have a new terminal record at [https://meson.network
 
 ```text
 $ sudo ./meson service-stop                #To Stop Meson Network Service
+
 $ sudo ./meson service-remove              #To Remove Meson Network Application
 ```
 
@@ -78,7 +79,7 @@ Please modify **config.txt at** the folder of Meson.
 
 Please modify **config.txt at** the folder of Meson.
 
-### 3, Be sure to **Set up the Port Fowarding Rules**
+### 3, Be sure to **Set up the Port Forwarding Rules**
 
 This step is important for your own personal computer to run Meson.
 
