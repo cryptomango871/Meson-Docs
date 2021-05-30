@@ -59,12 +59,14 @@ $ sudo ./meson service-status
 
 After 2-3 minutes, you will have a new terminal record at [https://meson.network/terminals](https://meson.network/terminals).
 
-### **Other Commands:**
+### **Other Commands For Your Information**
 
 ```text
-"sudo ./meson service-stop"                    To Stop Meson Network Service
-"sudo ./meson service-remove"                  To Remove Meson Network Application
+$ sudo ./meson service-stop                #To Stop Meson Network Service
+$ sudo ./meson service-remove              #To Remove Meson Network Application
 ```
+
+You could just move the folder of Meson to change the install position.
 
 ## Common Attentions
 
@@ -76,11 +78,13 @@ Please modify **config.txt at** the folder of Meson.
 
 Please modify **config.txt at** the folder of Meson.
 
-### 3, Be sure to **Set up a Public IP**
+### 3, Be sure to **Set up the Port Fowarding Rules**
 
-It is important especially when it is your own personal computer to run Meson.
+This step is important for your own personal computer to run Meson.
 
+It's much recommended to use Cloud Servers\(GCP, AWS, Azure, Alibaba, etc.\) which are easier and more stable. But if you still want to try to mine on your own PC at home with the network router... You could search —— 
 
+**"Port Forwarding" + \[Your Router Brand\]**                          at YouTube/Google/etc...
 
-
+That is to change the configuration to tell your router this IP is connected with your PC so that Meson could find your device\(server\) through your router.
 
