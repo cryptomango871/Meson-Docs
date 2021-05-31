@@ -33,7 +33,7 @@ Also, there will be some reward adjustments for servers in different regions.
 
 ## **What is the difference in the current testing period?**
 
-All the Testnet Tokens will be mapped to 1% of the Mainnet Tokens. according to FAQ-Token, there will be 100,000,000 initial Meson Tokens, of which there will be 1,000,000 Tokens are used as the exchange of Testnet Tokens.
+All the Testnet Tokens will be mapped to 1% of the Mainnet Tokens. according to [FAQ-Token](https://docs.meson.network/faq/token), there will be 100,000,000 initial Meson Tokens, of which there will be 1,000,000 Tokens are used as the exchange of Testnet Tokens.
 
 **Your Mainnet Tokens = \(Your Testnet Tokens / All Testnet Tokens\) \* \(1% \* All Mainnet Tokens\)                           = \(Your Testnet Tokens / All Testnet Tokens\) \* 1,000,000**
 
