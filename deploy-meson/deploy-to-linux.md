@@ -22,7 +22,6 @@ $ tar -zxf meson-linux-amd64.tar.gz
 
 ```text
 $ ./meson-linux-amd64 && sudo ./meson service-install
-
 ```
 
 **Token, Port, and Space are parameter you need to input here:**

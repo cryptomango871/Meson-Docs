@@ -4,6 +4,10 @@ description: Use GCP to Mine Meson
 
 # Google Cloud Platform
 
+### **In order to make the best use of resources, we hope that you can use idle terminals to deploy the Meson project.** 
+
+### **But if you like to try, here are the instructions for you. You could register GCP, and start your own project, while mining Meson at the same time.**
+
 ## Step1, Register
 
 Open Google Cloud Platform \(GCP\) website [https://cloud.google.com/](https://cloud.google.com/)
@@ -102,7 +106,7 @@ Discord: [https://discord.com/invite/z6YfSHDkmS](https://discord.com/invite/z6Yf
 
 Telegram: [https://t.me/mesonnetwork](https://t.me/mesonnetwork)
 
-## Price Beyond the free trial
+## Please be Aware of the Price Beyond the Free Trial
 
 [https://cloud.google.com/vpc/network-pricing](https://cloud.google.com/vpc/network-pricing)
 
