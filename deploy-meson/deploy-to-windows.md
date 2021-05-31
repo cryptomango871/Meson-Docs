@@ -18,6 +18,5 @@ That is to change the configuration to tell your router this IP is connected wit
 
 References:
 https://en.wikipedia.org/wiki/Network_address_translation
-
-https://www.youtube.com/watch?v=2G1ueMDgwxw
+{% embed url="https://youtu.be/2G1ueMDgwxw" %}
 
