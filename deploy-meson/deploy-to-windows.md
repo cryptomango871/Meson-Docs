@@ -14,3 +14,7 @@ It's much recommended to use Cloud Servers\(GCP, AWS, Azure, Alibaba, etc.\) whi
 
 That is to change the configuration to tell your router this IP is connected with your PC so that Meson could find your device\(server\) through your router.
 
+References:
+https://en.wikipedia.org/wiki/Network_address_translation
+https://www.youtube.com/watch?v=2G1ueMDgwxw
+
