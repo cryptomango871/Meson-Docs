@@ -14,6 +14,14 @@
 
 They are pretty easy and fast steps, and more tutorials will be provided for your need~
 
+## Who are the most suitable miners for Meson Network?
+
+1. Constant bandwidth users 
+2. Dedicated servers owners 
+3. IDC servers \(corporation/organization/schools\) owners. 
+
+They are welcomed to become our most stable terminals suppliers. As a result, by making the most use of these idle resources, it becomes an economical and healthy model according to the blueprint and positioning of Meson Network
+
 ## **What are the mining rules of Meson Network?**
 
 Please check [https://meson.network/miningrules](https://meson.network/miningrules) for details.
