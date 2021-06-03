@@ -4,7 +4,7 @@ description: Use GCP to Mine Meson
 
 # Google Cloud Platform
 
-### **In order to make the best use of resources, we hope that you can use idle terminals to deploy the Meson project.** 
+### **In order to make the best use of resources, we hope that you can use idle terminals to deploy the Meson project.**
 
 ### **But if you like to try, here are the instructions for you. You could register GCP, and start your own project, while mining Meson at the same time.**
 
@@ -62,7 +62,7 @@ As we have finished the template, it’s cool to simply click Create.
 
 ![](https://lh3.googleusercontent.com/yoUY9GMIjSvUAIl6VwjNZHVm9UNpsQCKyBiprgkrrj7JhIMYEZY5ldzGIMtDUmRpwaAZFcQgs2-LNK39Hv3bwRyyf3slJu93F4yI_-Rytiebw9Rfhdgq2UtIWQlbH2OPFVDB02Lo)
 
-## Step5, Click SSH to connect to your server to finish the deployment 
+## Step5, Click SSH to connect to your server to finish the deployment
 
 ![](https://lh3.googleusercontent.com/YY7tAWPzRPOziSZ21redgIeD0CtEN-r8UgBYq-zVulssJn-Eis8hn9N9yrK478AusT48jAUHeGddQimAKLNrkGkwpnt0gxvmFCWIrk6ECeRqFKc2wIRn-V1relc87R18gIyAs3ez)
 
