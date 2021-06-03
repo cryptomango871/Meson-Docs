@@ -2,63 +2,63 @@
 description: GCP를 이용하여 Meson을 채굴하기
 ---
 
-# 구글 클라우드 플랫폼
+# Google Cloud Platform
 
-### **자원을 효율적으로 이용하기 위해서는 유휴 터미널을 사용하여 Meson 프로젝트를 배포하는 것이 좋습니다.** 
+### **자원을 효율적으로 이용하기 위해서는 유휴 터미널을 사용하여 Meson 프로젝트를 배포하는 것이 좋습니다.**
 
 ### **그래도, GCP를 이용하고자 하신다면, 아래의 지침을 따라주세요. Meson을 채굴하는 동시 GCP에 회원가입하고, 프로젝트를 생성하여 프로젝트를 시작할 수 있습니다.**
 
 ## Step1, 회원 가입
 
-구글 클라우드 플랫폼 (GCP) 웹사이트에 방문합니다. [https://cloud.google.com/](https://cloud.google.com/)
+구글 클라우드 플랫폼 \(GCP\) 웹사이트에 방문합니다. [https://cloud.google.com/](https://cloud.google.com/)
 
-![https://cloud.google.com/](https://lh3.googleusercontent.com/BFEuYjyKdigUxh6uosA1V-lniOLOosWFKzpLn0uy8zC-EVnSKHKKB-mNT1ncu9GhKIIcbDgGoQbfVtDGfFqXVBcNdYg8HEnHNWSfcVbxzl5f9bY_9Q9nPLYeT3ZrTsLEwZj4C005)
+![https://cloud.google.com](../.gitbook/assets/image%20%281%29.png)
 
-지침을 따라 전화번호와 신용카드 (마스터카드 혹은 Visa) 를 입력하면 90일동안 사용할 수 있는 $300의 시험 크레딧을 얻게 됩니다.
+지침을 따라 전화번호와 신용카드 \(마스터카드 혹은 Visa\) 를 입력하면 90일동안 사용할 수 있는 $300의 시험 크레딧을 얻게 됩니다.
 
 ## Step2, 인스턴스 템플릿 생성
 
-1. 탐색 메뉴 열기 -> "Compute Engine" 클릭 -> "인스턴스 템플릿" 클릭
+1. 탐색 메뉴 열기 -&gt; "Compute Engine" 클릭 -&gt; "인스턴스 템플릿" 클릭
 
-![](https://lh4.googleusercontent.com/VrX5H6dPh9GP2eXCVUHo9BQO4s1g7FQ5YCjwjak6x-uUeRT6WM4rgMMM1T3qERVtcwLF7wh-A7JVicL6Y9oIh9s096UnNVCGuEcG5j9b2AmouJS4iMFpm38gsLgLbrrTyAtqjR8q)
+![](../.gitbook/assets/image.png)
 
 1. 인스턴스 템플릿 만들기
 
-![](https://lh6.googleusercontent.com/TWIvG7PKv5You3pCiAa9G8CoExQVBV9xp59Xd90zqNeXf7ZRMFGuQ5_QdMqGmHQnwGqrjDCOTHMZ0NtbvkjDP98wtttcHbPrDfgaeXTXu37uxOdpYGOpBd40EkZ13a-MznmQ2LSu)
+![](../.gitbook/assets/1-3.png)
 
-![](https://lh5.googleusercontent.com/e0_M_kKDB2G5mojHWBAEDuHKUmuS0EZDVTgegkgufxdvNzMT4yIdqtHCOjqPjbbaJaXK_DvGl3LDl8hqXDtuSavTAGphQVItesA5_SXlp0va8cOAZeRmYbGQ8hJn--e3PABx0XFk)
+![](../.gitbook/assets/1-4.png)
 
-2. 디스크의 용량을 최소 50 GB로 변경
+1. 디스크의 용량을 최소 50 GB로 변경
 
-![](https://lh3.googleusercontent.com/c0iDFahZjwvU_8CYaiPQeLcw0iFwxwrHX-An5aAud3QJ5aMQwaRuArE9hgI_BTp4oQ3SOmZPp6z6PAhH41pKe9ZmGXiCVNJOrBpO08WC7pL9zJoaBU0WEroWeTi3_nGY_HLjG0IL)
+![](../.gitbook/assets/1-5.png)
 
-`변경` 버튼을 눌러 디스크의 용량을 50 GB 이상으로 늘려주세요. 서비스를 실행하기 위해서는 40 GB 이상의 용량이 필요합니다.
+"변경" 버튼을 눌러 디스크의 용량을 50 GB 이상으로 늘려주세요. 서비스를 실행하기 위해서는 40 GB 이상의 용량이 필요합니다.
 
-![](https://lh6.googleusercontent.com/SGPt4I2QDDafSoTxgnHhcKlfDUYqpcNxwEya0cflHOnx_ziE2gQRPzZL6ailVwqvtd2PgyoBrcY_5NI2C3eCzmX4BC7WeVzKEGDVqqWfA8UVKxSW79Pq2niLx3wHIsu6G3le3t2a)
+![](../.gitbook/assets/1-6.png)
 
-3. Meson 네트워크에서 사용할 포트를 열기 위해서 네트워크 태그 "meson" 을 추가합니다.
+1. Meson 네트워크에서 사용할 포트를 열기 위해서 네트워크 태그 "meson" 을 추가합니다.
 
-![](https://lh6.googleusercontent.com/s8YM9_0mUK4y9hOZUUSMZr9-ZR8qOADnYorAsvNWXPrqVCAkpVWjZSRILo3xTNNCC6Q3eLDsuvaJyDpACTSA5A71-oUw6qbtQ4_jaPYlaPNiaao1J01o7w5IiYh4-jio3BksSAZm)
+![](../.gitbook/assets/1-7.png)
 
-![](https://lh5.googleusercontent.com/rMOfc7HfnnRL6F1ErpICXYdDboLaHdgHdXiJRwhqW-qVskIzBNkDS665cdGBCvuqbL5NAZC12d4tN4K40aQ2nVrhZco1wf8K-wy-AlfZwGjCSEk5pUpBDjDoN4Buf7PcuRgzgVdy)
+![](../.gitbook/assets/1-8%20%281%29.png)
 
 ## Step3, 방금 추가한 네트워크 태그 "meson" 을 설정합니다.
 
-![](https://lh5.googleusercontent.com/MH0t9dGPi5qtpjPMa0_N93xtajemPXMPs4skjf3FRwzUCSKH42wtdHtmzp9uUrE8A0DUJhD-DMS7EtLRsgrKGVVH-lzSH2m03SqwNPpwd8MlwfLQ7hNRtPsdxSm514XzK-SD-Om7)
+![](../.gitbook/assets/1-9.png)
 
-![](https://lh5.googleusercontent.com/B8TdJTapBkzNYcbO0NJH8sALWdjvSij6PLebmx52VLspqvdjeEgcPvBeESJrDuvNi-R5bsvL4v1SNy3yxCMcT16Y1XuWuicrrFeNDhD3czqyv8-_T-AjZcVyN0f1HGNHIQTWVBBP)
+![](../.gitbook/assets/1-10.png)
 
-![](https://lh5.googleusercontent.com/bKiMdxpc7ezMiCGDHQiNNIsRrPAE32tJ6Rrg0rL_4OxAef4MLfSNBsraAD8QxefO4acLV_KtkB89nj6vpHpQG_6WhMze_W0q70vNZWz7om2F7M1QU8j3k97rywJZITmg-aB7iA0g)
+![](../.gitbook/assets/1-11.png)
 
 상단의 스크린샷을 참고하여 TCP 연결에 대해 19091 포트를 열도록 설정합니다.
 
 ## Step4, meson-template 인스턴스 템플릿으로부터 VM 인스턴스 생성하기
 
-![](https://lh4.googleusercontent.com/e0gnXfoaQipEkDhrdGJgtEBw8xHB0Q47OEz12vzstfp_FH9Blz4dZUrwAtjYfK7wnkX01RrbqkzxdkHjNQ7kNnUILrqo-FizjjSbgi0fgn1XM4kQbeB_t7iVgbPV-SB4bNDF3YPq)
+![](../.gitbook/assets/1-12.png)
 
-![](https://lh4.googleusercontent.com/3EjV9Ya5WpNBWMqv_qej2kCZ0DgHU-zJI10Ebs5S0bwtqmSU-9a2pH16tXh-lT7PNqAcfreQ-7ddC9PjuJm_7FxDx4Za62uxXwzxKCCszPJXo1nnWLspkOOzFWA-H_JeZjM98E2V)
+![](../.gitbook/assets/1-13.png)
 
-![](https://lh4.googleusercontent.com/BL66Ysp9weNgSD2PZrcMlJKX4ta6tUxq2y3TucHMEBzFSXedUz3_SVSdVeNW0NvR33p1kBf_kBmBgy2CwxJXZqQQrMyX843wT-vBsOS60yhthdGd8SHwn3PLwVqm1MsWGJKWgPHs)
+![](../.gitbook/assets/1-14.png)
 
 위에서 이미 인스턴스 템플릿을 만들었기 때문에, 단순히 "만들기" 버튼만 클릭하면 됩니다.
 
@@ -118,3 +118,4 @@ app 삭제: "sudo ./meson service-remove"
 ![](https://lh4.googleusercontent.com/qV1oYOUUh4zbxAlhnQ5WfXWruCxT9l9pWoOAMc6m1aEfuedpY7XYDY9HBD6sLjQPMU8mla_BzkSAMIrk4laX1kzPMMO5DnsKFGWQaXjUtsLMfNYyrLP9VJhj_iob-5jqqF8f3Xjs)
 
 ![](https://lh6.googleusercontent.com/plsuqeH1aLPmcznSK8u_3yx3OjPukzSZmRGnrelsCoX7qqn_XbK5jxal5_QCa007Ot45JzhPyH0wkQmS2ClzUdNmqWmCX138nVl5xAeJ4qJ2dENkwKYA64GLeglEJ5QA2zE2wrCG)
+

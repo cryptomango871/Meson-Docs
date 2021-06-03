@@ -1,7 +1,5 @@
 # Token
 
-
-
 ![](https://lh3.googleusercontent.com/B08yd2tA5322jYSg7vp_cz1egT1kFRLxtqC2KZ1bhxeF9II809eI2E0xen1VS2dhpevzy58CSVYIrP-RTH_H6zlxmz1390PO2UVvNkVLs_E75Hiq0hRCfe31alb_r2wgEuqI3JiD)
 
 ## **How many Meson Tokens are there in total?**
