@@ -1,27 +1,27 @@
 ---
-description: It is a bandwidth trading platform built on blockchain.
+description: 블록체인 하에서 작동하는 대역폭 트레이딩 플랫폼입니다.
 ---
 
-# What is Meson Network
+# Meson Network는 무엇인가요?
 
-![Meson Network is a bandwidth trading platform built on blockchain.](.gitbook/assets/meson-network-is.png)
+![블록체인 하에서 작동하는 대역폭 트레이딩 플랫폼입니다.](.gitbook/assets/meson-network-is.png)
 
-## Meson Network is a bandwidth trading platform built on blockchain.
+## 블록체인 하에서 작동하는 대역폭 트레이딩 플랫폼입니다.
 
-### Meson Network is a bandwidth trading platform built on blockchain.
+### 블록체인 하에서 작동하는 대역폭 트레이딩 플랫폼입니다.
 
-#### Meson Network is a bandwidth trading platform built on blockchain.
+#### 블록체인 하에서 작동하는 대역폭 트레이딩 플랫폼입니다.
 
-Meson Network is a bandwidth trading platform built on blockchain.
+블록체인 하에서 작동하는 대역폭 트레이딩 플랫폼입니다.
 
-> Meson Network is a bandwidth trading platform built on blockchain.
+> 블록체인 하에서 작동하는 대역폭 트레이딩 플랫폼입니다.
 
 {% hint style="info" %}
-Meson Network is a bandwidth trading platform built on blockchain. ^^
+블록체인 하에서 작동하는 대역폭 트레이딩 플랫폼입니다. ^^
 {% endhint %}
 
 ```text
-Meson Network is a bandwidth trading platform built on blockchain. ^^
+블록체인 하에서 작동하는 대역폭 트레이딩 플랫폼입니다. ^^
 ```
 
 {% embed url="https://youtu.be/mRh\_hZXNV5o" caption="" %}

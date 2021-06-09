@@ -1,25 +1,24 @@
 # General Instructions
 
-## Step1, Get a server
+## Step1, 서버를 구합니다.
 
-![](../.gitbook/assets/image%20%282%29%20%282%29.png)
+![서버를 구하기 위해서 어떤 서비스 제공자를 사용하고 계신가요?](../.gitbook/assets/image%20%282%29%20%282%29.png)
 
-You could easily find the tutorials to apply for a trial server.
+아래에서 시범 서버 (Trial 서버) 를 구동하기 위한 지침을 찾을 수 있습니다.
 
-for example, [https://www.youtube.com/results?search\_query=how+to+apply+free+gcp](https://www.youtube.com/results?search_query=how+to+apply+free+trial+gcp)
+Google Cloud Platform의 예시입니다: [https://www.youtube.com/results?search\_query=how+to+apply+free+gcp](https://www.youtube.com/results?search_query=how+to+apply+free+trial+gcp)
 
-## Step2, Set up a server.
+## Step2, 서버를 세팅합니다.
 
-Most important things:
+중요한 사항:
 
-* Providing enough space
-* Opening the port of the firewall
+* 충분한 용량 확보
+* 방화벽의 포트 열기
 
-for example, [https://docs.meson.network/deploy-meson/google-cloud-platform](https://docs.meson.network/deploy-meson/google-cloud-platform)
+Google Cloud Platform의 예시입니다: [https://docs.meson.network/deploy-meson/google-cloud-platform](https://docs.meson.network/deploy-meson/google-cloud-platform)
 
-## Step3, Install Meson and Start the Service
+## Step3, Meson을 설치하고 서비스를 실행합니다.
 
 {% embed url="https://coldcdn.com/api/cdn/wr1cs5/video/3MinutesToMineMeson.mp4" caption="" %}
 
-\(Above is the instructions for an old version. also, here is the [Youtube link](https://www.youtube.com/watch?v=jHrVCpuREqk)\)
-
+\(상단의 지침은 구버전입니다. 또한 [Youtube link](https://www.youtube.com/watch?v=jHrVCpuREqk) 를 참고하실 수도 있습니다.\)

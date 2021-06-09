@@ -1,90 +1,89 @@
-# Deploy to Linux
+# 리눅스에 배포하기
 
-## Having reached this part, we assume that you already have a server with 40+GB space and an opened port.
+## 이 문서에서는 여러분이 40기가의 용량 및 포트가 열려있는 서버를 이미 보유하고 있다고 가정합니다.
 
-\[ Code reference: [https://meson.network/terminals](https://meson.network/terminals) \]
+\[ 코드 예시: [https://meson.network/terminals](https://meson.network/terminals) \]
 
-### Command 1, Download and Install Meson
+### Command 1, Meson의 다운로드 및 설치
 
 ```text
 $ wget 'https://assets.meson.network:10443/static/terminal/v2.5.1/meson-linux-amd64.tar.gz'
 ```
 
-> If you get notifications like "-bash: wget: command not found" telling that you can't use this command, please install wget by using "**sudo apt-get install wget**" first.
+> 만약 "-bash: wget: command not found" 와 같은 결과가 출력되어 wget을 사용할 수 없는 상황이라면, `wget`을 먼저 설치해주세요. "**sudo apt-get install wget**" 명령어를 통하여 설치할 수 있습니다.
 
-### Command 2, Unzip this package
+### Command 2, 패키지를 압축 해제
 
 ```text
 $ tar -zxf meson-linux-amd64.tar.gz
 ```
 
-### Command 3, Install Meson as a service
+### Command 3, Meson을 서비스로 설치 및 등록
 
 ```text
 $ ./meson-linux-amd64 && sudo ./meson service-install
 ```
 
-**Token, Port, and Space are parameter you need to input here:**
+**토큰, 포트, 그리고 사용하실 용량을 인자 (Parameter) 로 아래의 지침을 통해 등록합니다:**
 
-**1, Token** —— from [https://meson.network/terminals](https://meson.network/terminals)
+**1, 토큰** —— [https://meson.network/terminals](https://meson.network/terminals) 에서 확인하실 수 있습니다.
 
-![Please input your own Token. This is your ID.](../.gitbook/assets/image%20%288%29.png)
+![당신의 토큰을 이곳에 입력하세요. 이것이 당신의 ID입니다.](../.gitbook/assets/image%20%288%29.png)
 
-**2, Port** —— Please open a port \(default:19091\) from the firewall
+**2, 포트** —— 방화벽에서 포트 \(default:19091\) 를 열어주세요.
 
-The below is an example of what to do in GCP:
+아래는 GCP를 사용하실 경우의 예시입니다.
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-**3. Space** —— At least please offer 40+GB space for Meson.
+**3. 용량** —— 적어도 Meson을 구동하기 위하여 40GB 이상의 용량이 제공되어야 합니다.
 
-High Space and Bandwidth for High Earning. please check [https://meson.network/miningrules](https://meson.network/miningrules) for details.
+많은 용량과 높은 대역폭을 제공할 수록 많은 보상을 얻게됩니다. 자세한 사항은 [https://meson.network/miningrules](https://meson.network/miningrules) 을 참고하세요.
 
-### Command 4, Start the service of Meson
+### Command 4, Meson 서비스를 시작
 
 ```text
 $ sudo ./meson service-start
 ```
 
-### Command 5, Please remember to check if it runs well
+### Command 5, 서비스가 제대로 동작하는지 체크하는 것을 잊지마세요
 
-Please wait about 1 minute after the above one.
+위의 Command 4 명령어 실행 후 약 1분 정도 기다리세요.
 
 ```text
 $ sudo ./meson service-status
 ```
 
-After 2-3 minutes, you will have a new terminal record at [https://meson.network/terminals](https://meson.network/terminals).
+약 2-3 분이 지나면, 새로운 터미널 기록을 [https://meson.network/terminals](https://meson.network/terminals) 에서 확인하실 수 있습니다.
 
-### **Other Commands For Your Information**
+### **혹시 필요할지 모를 다른 명령어들**
 
 ```text
-$ sudo ./meson service-stop                #To Stop Meson Network Service
-
-$ sudo ./meson service-remove              #To Remove Meson Network Application
+$ sudo ./meson service-stop                # Meson Network 서비스를 중단
+단
+$ sudo ./meson service-remove              # Meson Network 어플리케이션을 서비스에서 제거
 ```
 
-You could just move the folder of Meson to change the install position.
+또한, Meson이 설치된 폴더를 단순히 이동함으로써 설치 경로를 바꿀 수 있습니다.
 
-## Common Attentions
+## 일반적인 작동 방식
 
-### 1, How to **Change the Port**?
+### 1, 어떻게 **포트를 변경** 할 수 있나요?
 
-Please modify **config.txt at** the folder of Meson.
+Meson 설치 경로에 있는 **config.txt** 를 변경하세요.
 
-### 2, How to **Change the Space**?
+### 2, 어떻게 **용량을 변경** 할 수 있나요?
 
-Please modify **config.txt at** the folder of Meson.
+Meson 설치 경로에 있는 **config.txt** 를 변경하세요.
 
-### 3, Be sure to **Set up the Port Forwarding Rules**
+### 3, **포트 포워딩 규칙을 설정** 했는지 확인해주세요.
 
-This step is important for your own personal computer to run Meson.
+이 내용은 만약 개인용 컴퓨터에서 Meson을 실행할 경우 중요한 내용입니다.
 
-It's much recommended to use Cloud Servers\(GCP, AWS, Azure, Alibaba, etc.\) which are easier and more stable. But if you still want to try to mine on your own PC at home with the network router... You could search ——
+클라우드 서버 \(GCP, AWS, Azure, Alibaba, etc.\) 를 사용하는 것이 더 쉽고 안정적이므로 권장됩니다. 만약 여전히 집에서 네트워크 라우터 (공유기 등...) 를 이용하여 채굴을 하시는 경우, 아래의 내용을 유튜브/구글 등지에서 검색하실 수 있습니다.
 
-**"Port Forwarding" + \[Your Router Brand\]** at YouTube/Google/etc...
+**"Port Forwarding" + \[Your Router Brand\]** 
 
-That is to change the configuration to tell your router this IP is connected with your PC so that Meson could find your device\(server\) through your router.
-
+라우터의 설정을 변경하여 당신의 PC와 연결된 IP를 Meson이 라우터를 타고 서버를 찾을 수 있도록 하기 위함입니다.
