@@ -1,23 +1,23 @@
 ---
-description: Frequently Asked Questions
+description: 자주 묻는 질문
 ---
 
 # FAQ
 
-## What is Meson Network??
+## Meson Network는 무엇인가요?
 
-It is a bandwidth trading platform built on blockchain. We gather the idle bandwidth \(and space\) from the distributed servers worldwide, offering the servers’ suppliers the tokens as rewards, and help speed up the streaming media.
+Meson Network는 블록체인에 기반한 대역폭 거래 플랫폼입니다. Meson Network는 유휴 대역폭 \(그리고 저장용량\) 을 전세계에 퍼져있는 서버로부터 모으고, 해당 자원을 제공한 서버에게 보상으로 토큰을 공급합니다. 이 자원을 활용하여 미디어 스트리밍 등을 가속화하는데 도움을 줍니다.
 
-## Who will have application requirements for Meson Network?
+## 누가 Meson Network를 신청할 수 있습니까?
 
-1. people who have servers with idle bandwidth \(and space\) that are much wasted. 
-2. people who want to speed up their websites at a low price to users worldwide. 
-3. people who want to obtain some files, pictures, or videos from the Internet, but it is too slow because of the regional transmission restrictions or somehow.
+1. 낭비되는 유휴 대역폭 \(그리고 저장용량\) 이 많은 서버를 가진 사람들
+2. 자신의 웹사이트를 좀 더 낮은 가격으로, 빠르게 전 세계의 사용자에게 전달하고 싶은 사람들
+3. 파일, 사진, 비디오 등을 인터넷을 통해 얻고 싶은데 사용하고 있는 인터넷 지역의 전달 제한 등의 문제로 작업이 너무 느린 사람들 
 
-## **Why choose Meson Network?**
+## **왜 Meson Network를 선택해야 하나요?**
 
-* Cheap
-* Fast
-* Stable
-* Win-Win for server owners and content owners
+* 낮은 가격
+* 빠른 속도
+* 안정적
+* 서버 소유자와 컨텐츠 소유자의 모두에게 유리한 방식
 
