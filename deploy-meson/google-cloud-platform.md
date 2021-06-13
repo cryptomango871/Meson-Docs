@@ -2,7 +2,7 @@
 description: GCP를 이용하여 Meson을 채굴하기
 ---
 
-# Google Cloud Platform
+# 구글 클라우드 플랫폼에 배포하기
 
 ### **자원을 효율적으로 이용하기 위해서는 유휴 터미널을 사용하여 Meson 프로젝트를 배포하는 것이 좋습니다.**
 

@@ -8,7 +8,7 @@
 ## Meson 배포 \(채굴\) <a id="deploy-meson"></a>
 
 * [기본 지침](deploy-meson/general-instructions.md)
-* [Google Cloud Platform](deploy-meson/google-cloud-platform.md)
+* [구글 클라우드 플랫폼에 배포하기](deploy-meson/google-cloud-platform.md)
 * [리눅스에 배포하기](deploy-meson/deploy-to-linux.md)
 * [윈도우에 배포하기 \(TODO\)](deploy-meson/deploy-to-windows.md)
 
