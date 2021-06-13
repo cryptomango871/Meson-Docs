@@ -48,7 +48,7 @@ description: GCP를 이용하여 Meson을 채굴하기
 
 ![](../.gitbook/assets/1-10.png)
 
-![](../.gitbook/assets/1-11.png)
+![](../.gitbook/assets/1-11%20%282%29.png)
 
 상단의 스크린샷을 참고하여 TCP 연결에 대해 19091 포트를 열도록 설정합니다.
 

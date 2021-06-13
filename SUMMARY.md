@@ -2,8 +2,8 @@
 
 * [Meson Network는 무엇입니까?](README.md)
 * [FAQ](faq/README.md)
-  * [Token](faq/token.md)
-  * [Minning](faq/minning.md)
+  * [토큰](faq/token.md)
+  * [채굴](faq/minning.md)
 
 ## Meson 배포 \(채굴\) <a id="deploy-meson"></a>
 
@@ -14,10 +14,10 @@
 
 ## Meson의 CDN 서비스를 사용하기
 
-* [Accelerate Full Website](use-cdn-services-of-meson/accelerate-full-website.md)
-* [Accelerate a Single File](use-cdn-services-of-meson/accelerate-a-single-file.md)
+* [웹사이트 가속화](meson-cdn/accelerate-full-website.md)
+* [단일 파일 가속화](meson-cdn/accelerate-a-single-file.md)
 
-## TODO 문서 <a id="todo"></a>
+## TODO 문서
 
 * [Amazon Web Services\(TODO\)](todo/amazon-web-services.md)
 * [Azure\(TODO\)](todo/azure.md)
@@ -31,3 +31,4 @@
 * [텔레그램](https://t.me/mesonnetwork)
 * [깃허브](https://github.com/daqnext)
 * [미디엄](https://medium.com/meson-network)
+

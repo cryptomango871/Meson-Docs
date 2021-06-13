@@ -24,11 +24,11 @@ $ tar -zxf meson-linux-amd64.tar.gz
 $ ./meson-linux-amd64 && sudo ./meson service-install
 ```
 
-**토큰, 포트, 그리고 사용하실 용량을 인자 (Parameter) 로 아래의 지침을 통해 등록합니다:**
+**토큰, 포트, 그리고 사용하실 용량을 인자 \(Parameter\) 로 아래의 지침을 통해 등록합니다:**
 
 **1, 토큰** —— [https://meson.network/terminals](https://meson.network/terminals) 에서 확인하실 수 있습니다.
 
-![당신의 토큰을 이곳에 입력하세요. 이것이 당신의 ID입니다.](../.gitbook/assets/image%20%288%29.png)
+![&#xB2F9;&#xC2E0;&#xC758; &#xD1A0;&#xD070;&#xC744; &#xC774;&#xACF3;&#xC5D0; &#xC785;&#xB825;&#xD558;&#xC138;&#xC694;. &#xC774;&#xAC83;&#xC774; &#xB2F9;&#xC2E0;&#xC758; ID&#xC785;&#xB2C8;&#xB2E4;.](../.gitbook/assets/image%20%288%29.png)
 
 **2, 포트** —— 방화벽에서 포트 \(default:19091\) 를 열어주세요.
 
@@ -82,8 +82,9 @@ Meson 설치 경로에 있는 **config.txt** 를 변경하세요.
 
 이 내용은 만약 개인용 컴퓨터에서 Meson을 실행할 경우 중요한 내용입니다.
 
-클라우드 서버 \(GCP, AWS, Azure, Alibaba, etc.\) 를 사용하는 것이 더 쉽고 안정적이므로 권장됩니다. 만약 여전히 집에서 네트워크 라우터 (공유기 등...) 를 이용하여 채굴을 하시는 경우, 아래의 내용을 유튜브/구글 등지에서 검색하실 수 있습니다.
+클라우드 서버 \(GCP, AWS, Azure, Alibaba, etc.\) 를 사용하는 것이 더 쉽고 안정적이므로 권장됩니다. 만약 여전히 집에서 네트워크 라우터 \(공유기 등...\) 를 이용하여 채굴을 하시는 경우, 아래의 내용을 유튜브/구글 등지에서 검색하실 수 있습니다.
 
-**"Port Forwarding" + \[Your Router Brand\]** 
+**"Port Forwarding" + \[Your Router Brand\]**
 
 라우터의 설정을 변경하여 당신의 PC와 연결된 IP를 Meson이 라우터를 타고 서버를 찾을 수 있도록 하기 위함입니다.
+

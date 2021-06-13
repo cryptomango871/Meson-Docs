@@ -2,7 +2,7 @@
 description: TODO. Please wait.
 ---
 
-# Deploy to Windows\(TODO\)
+# 윈도우에 배포하기 \(TODO\)
 
 ## Be sure to **Set up the Port Forwarding Rules**
 
